@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="corFundoPadraoCinza">#212121</color>
+    <color name="corPadraBotoes">#F87C1C</color>
+    <color name="corBotoes">#A21E00</color>
+    <color name="fundoClaro">#FFF0CC</color>
+    <color name="fundoClaroDois">#FFDFA8</color>
+</resources>

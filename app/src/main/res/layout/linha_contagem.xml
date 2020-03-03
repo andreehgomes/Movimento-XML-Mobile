@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="2dp"
+    android:background="@color/fundoClaroDois"
+    android:baselineAligned="false"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txtCodigo"
+            android:layout_width="80dp"
+            android:layout_height="25dp"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="CODIGO"
+            android:textColor="@color/corBotoes" />
+
+        <TextView
+            android:id="@+id/txtDescricao"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="DESCRIÇÃO"
+            android:textColor="@color/corBotoes" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/codigo"
+            android:layout_width="80dp"
+            android:layout_height="45dp"
+            android:layout_margin="2dp"
+            android:background="@android:color/system_notification_accent_color"
+            android:gravity="right|fill_vertical"
+            android:padding="5dp"
+            android:text="1º"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_dark"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/descricao"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_margin="2dp"
+            android:background="@android:color/system_notification_accent_color"
+            android:gravity="left|fill_vertical"
+            android:padding="5dp"
+            android:text="PALMEIRAS"
+            android:textColor="@android:color/background_dark"
+            android:textSize="12sp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txtEstoque"
+            android:layout_width="150dp"
+            android:layout_height="25dp"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="ESTOQUE"
+            android:textColor="@color/corBotoes" />
+
+        <TextView
+            android:id="@+id/txtEstoque2"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="CONTAGEM"
+            android:textColor="@color/corBotoes" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/estoque"
+            android:layout_width="150dp"
+            android:layout_height="45dp"
+            android:layout_margin="2dp"
+            android:background="@android:color/system_notification_accent_color"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="10000"
+            android:textColor="@android:color/background_dark"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/contagem"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_margin="2dp"
+            android:background="@android:color/system_notification_accent_color"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="10000"
+            android:textColor="@android:color/background_dark"
+            android:textSize="12sp" />
+    </TableRow>
+
+
+</LinearLayout>
